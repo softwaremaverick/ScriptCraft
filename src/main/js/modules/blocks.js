@@ -329,6 +329,12 @@ var blocks = {
     jungle: 190,
     oak: 191,
     acacia: 192
+  },
+  concrete: {
+    white: 251 // all other colors added below
+  },
+  concrete_powder: {
+    white: 252 // all other colors added below
   }
 };
 
@@ -339,7 +345,9 @@ var colorized_blocks = [
   'stained_clay', 
   'carpet', 
   'stained_glass', 
-  'stained_glass_pane'
+  'stained_glass_pane',
+  'concrete',
+  'concrete_powder'
 ];
 
 for (var i = 0, len = colorized_blocks.length; i < len; i++) {
