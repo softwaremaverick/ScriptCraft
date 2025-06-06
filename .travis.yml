@@ -1,5 +1,5 @@
 language: java
+dist: xenial
 jdk:
-  - oraclejdk8
-  - oraclejdk7
-  - openjdk7
+  - oraclejdk9
+
